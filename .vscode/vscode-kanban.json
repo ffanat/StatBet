@@ -1,0 +1,165 @@
+{
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-24T13:21:20.466Z",
+      "description": {
+        "content": "Add custom object teamGoals to database. New object represent most important statistic for each team - scored and conceded goals",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Add 'teamGoals' object to database"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T11:08:36.222Z",
+      "description": {
+        "content": "Add comments to all apex classes",
+        "mime": "text/markdown"
+      },
+      "id": "12",
+      "references": [],
+      "title": "Add comments"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-14T11:59:49.281Z",
+      "description": {
+        "content": "Add lightning web components to match record page with teams foul statistic",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Add lightning web component with teams foul statistic"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-19T14:37:40.422Z",
+      "description": {
+        "content": "Add custom object (TeamStatistic) to database. New object represent played matches statistics for each team.",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "Complete the database"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-02-26T15:45:58.870Z",
+      "description": {
+        "content": "Add lightninig component wich represent statistic information of the match\t\t\t",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Match Info aura component"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-02-25T14:27:57.213Z",
+      "description": {
+        "content": "Add visualforce page for referee information (or lightning component)",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Referee visualforce"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T10:57:55.239Z",
+      "description": {
+        "content": "Create custom image field which represent statistic of played matches by team (win, draw or loose)",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Create custom image field"
+    }
+  ],
+  "testing": [],
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T11:02:53.029Z",
+      "description": {
+        "content": "Add 'match complete' button to match record page. Button set field MatchComplete__c on Match__c object to true",
+        "mime": "text/markdown"
+      },
+      "id": "9",
+      "references": [],
+      "title": "Add 'match complete' button"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T10:59:44.891Z",
+      "description": {
+        "content": "Connect gitHub repo to project and add new working branch",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Connect gitHub repo to project"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T11:05:46.691Z",
+      "description": {
+        "content": "Create custom report type and dashboard which add information of played matches statistic to Team record page",
+        "mime": "text/markdown"
+      },
+      "id": "10",
+      "references": [],
+      "title": "Create custom report type and dashboard"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T11:07:46.953Z",
+      "description": {
+        "content": "Create tests for all apex classes and controllers",
+        "mime": "text/markdown"
+      },
+      "id": "11",
+      "references": [],
+      "title": "Create tests"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T10:55:28.261Z",
+      "description": {
+        "content": "Create special user for \"Stat Bet\" app. Create permission set and role",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Create user"
+    }
+  ]
+}

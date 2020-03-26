@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Match__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Match</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <filterItems>
+            <field>$Source.Team__c</field>
+            <operation>equals</operation>
+            <valueField>Match__c.HomeTeam__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Team__c</field>
+            <operation>equals</operation>
+            <valueField>Match__c.Visitors__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Match__c</referenceTo>
+    <relationshipLabel>TeamStatistics</relationshipLabel>
+    <relationshipName>TeamStatistics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

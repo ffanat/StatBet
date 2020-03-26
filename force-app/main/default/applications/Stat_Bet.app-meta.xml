@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#07243E</headerColor>
+        <logo>logo_400x4001</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <description>App for football analysis and betting</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Stat Bet</label>
+    <navType>Standard</navType>
+    <tabs>Competition__c</tabs>
+    <tabs>Team__c</tabs>
+    <tabs>Match__c</tabs>
+    <tabs>MatchStatistic__c</tabs>
+    <tabs>Referee__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Stat_Bet_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TournamentName__c</fullName>
+    <externalId>false</externalId>
+    <label>Tournament Name</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <required>true</required>
+    <type>Picklist</type>    
+    <valueSet>
+        <controllingField>TournamentType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Champions League 19/20</fullName>
+                <default>false</default>
+                <label>Champions League 19/20</label>
+            </value>
+            <value>
+                <fullName>Champions League 20/21</fullName>
+                <default>false</default>
+                <label>Champions League 20/21</label>
+            </value>
+            <value>
+                <fullName>Europa League 19/20</fullName>
+                <default>false</default>
+                <label>Europa League 19/20</label>
+            </value>
+            <value>
+                <fullName>Europa League 20/21</fullName>
+                <default>false</default>
+                <label>Europa League 20/21</label>
+            </value>
+            <value>
+                <fullName>La Liga 19/20</fullName>
+                <default>false</default>
+                <label>La Liga 19/20</label>
+            </value>
+            <value>
+                <fullName>La Liga 20/21</fullName>
+                <default>false</default>
+                <label>La Liga 20/21</label>
+            </value>
+            <value>
+                <fullName>Copa Del Rey 19/20</fullName>
+                <default>false</default>
+                <label>Copa Del Rey 19/20</label>
+            </value>
+            <value>
+                <fullName>Copa Del Rey 20/21</fullName>
+                <default>false</default>
+                <label>Copa Del Rey 20/21</label>
+            </value>
+            <value>
+                <fullName>Bundesliga 19/20</fullName>
+                <default>false</default>
+                <label>Bundesliga 19/20</label>
+            </value>
+            <value>
+                <fullName>Bundesliga 20/21</fullName>
+                <default>false</default>
+                <label>Bundesliga 20/21</label>
+            </value>
+            <value>
+                <fullName>DFB Cup 19/20</fullName>
+                <default>false</default>
+                <label>DFB Cup 19/20</label>
+            </value>
+            <value>
+                <fullName>DFB Cup 20/21</fullName>
+                <default>false</default>
+                <label>DFB Cup 20/21</label>
+            </value>
+            <value>
+                <fullName>Premier League 19/20</fullName>
+                <default>false</default>
+                <label>Premier League 19/20</label>
+            </value>
+            <value>
+                <fullName>Premier League 20/21</fullName>
+                <default>false</default>
+                <label>Premier League 20/21</label>
+            </value>
+            <value>
+                <fullName>FA Cup 19/20</fullName>
+                <default>false</default>
+                <label>FA Cup 19/20</label>
+            </value>
+            <value>
+                <fullName>FA Cup 20/21</fullName>
+                <default>false</default>
+                <label>FA Cup 20/21</label>
+            </value>
+            <value>
+                <fullName>Serie A 19/20</fullName>
+                <default>false</default>
+                <label>Serie A 19/20</label>
+            </value>
+            <value>
+                <fullName>Serie A 20/21</fullName>
+                <default>false</default>
+                <label>Serie A 20/21</label>
+            </value>
+            <value>
+                <fullName>Coppa Italia 19/20</fullName>
+                <default>false</default>
+                <label>Coppa Italia 19/20</label>
+            </value>
+            <value>
+                <fullName>Coppa Italia 20/21</fullName>
+                <default>false</default>
+                <label>Coppa Italia 20/21</label>
+            </value>
+            <value>
+                <fullName>Ligue 1 19/20</fullName>
+                <default>false</default>
+                <label>Ligue 1 19/20</label>
+            </value>
+            <value>
+                <fullName>Ligue 1 20/21</fullName>
+                <default>false</default>
+                <label>Ligue 1 20/21</label>
+            </value>
+            <value>
+                <fullName>France Cup 19/20</fullName>
+                <default>false</default>
+                <label>France Cup 19/20</label>
+            </value>
+            <value>
+                <fullName>France Cup 20/21</fullName>
+                <default>false</default>
+                <label>France Cup 20/21</label>
+            </value>
+            <value>
+                <fullName>Euro 2020</fullName>
+                <default>false</default>
+                <label>Euro 2020</label>
+            </value>
+            <value>
+                <fullName>World Cup 2022</fullName>
+                <default>false</default>
+                <label>World Cup 2022</label>
+            </value>
+            <value>
+                <fullName>Friendly Match</fullName>
+                <default>false</default>
+                <label>Friendly Match</label>
+            </value>
+        </valueSetDefinition>             
+        <valueSettings>
+            <valueName>Champions League 19/20</valueName>
+            <controllingFieldValue>Champions League</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Champions League 20/21</valueName>
+            <controllingFieldValue>Champions League</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Europa League 19/20</valueName>
+            <controllingFieldValue>Europa League</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Europa League 20/21</valueName>
+            <controllingFieldValue>Europa League</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>La Liga 19/20</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>La Liga 20/21</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Copa Del Rey 19/20</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Copa Del Rey 20/21</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Bundesliga 19/20</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Bundesliga 20/21</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>DFB Cup 19/20</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>DFB Cup 20/21</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Premier League 19/20</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Premier League 20/21</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>FA Cup 19/20</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>FA Cup 20/21</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Serie A 19/20</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings> 
+        <valueSettings>
+            <valueName>Serie A 20/21</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Coppa Italia 19/20</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Coppa Italia 20/21</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>  
+        <valueSettings>
+            <valueName>Ligue 1 19/20</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Ligue 1 20/21</valueName>
+            <controllingFieldValue>Championship</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>France Cup 19/20</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>France Cup 20/21</valueName>
+            <controllingFieldValue>Cup</controllingFieldValue>                
+        </valueSettings> 
+        <valueSettings>
+            <valueName>Euro 2020</valueName>
+            <controllingFieldValue>Main Tournament</controllingFieldValue>
+            <controllingFieldValue>Qualification</controllingFieldValue>                 
+        </valueSettings>
+        <valueSettings>
+            <valueName>World Cup 2022</valueName>
+            <controllingFieldValue>Main Tournament</controllingFieldValue>
+            <controllingFieldValue>Qualification</controllingFieldValue>                
+        </valueSettings>
+        <valueSettings>
+            <valueName>Friendly Match</valueName>
+            <controllingFieldValue>Friendly</controllingFieldValue>                
+        </valueSettings>            
+    </valueSet>
+</CustomField>

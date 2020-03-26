@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EventType__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Event</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shot</fullName>
+                <default>false</default>
+                <label>Shot</label>
+            </value>
+            <value>
+                <fullName>Total Shots</fullName>
+                <default>false</default>
+                <label>Total Shots</label>
+            </value>
+            <value>
+                <fullName>Shots On Target</fullName>
+                <default>false</default>
+                <label>Shots On Target</label>
+            </value>
+            <value>
+                <fullName>Possesion</fullName>
+                <default>true</default>
+                <label>Possesion</label>
+            </value>
+            <value>
+                <fullName>Total Passes</fullName>
+                <default>false</default>
+                <label>Total Passes</label>
+            </value>
+            <value>
+                <fullName>Completed Passes</fullName>
+                <default>false</default>
+                <label>Completed Passes</label>
+            </value>
+            <value>
+                <fullName>Fouls</fullName>
+                <default>false</default>
+                <label>Fouls</label>
+            </value>
+            <value>
+                <fullName>Yellow Card</fullName>
+                <default>false</default>
+                <label>Yellow Card</label>
+            </value>
+            <value>
+                <fullName>Red Card</fullName>
+                <default>false</default>
+                <label>Red Card</label>
+            </value>
+            <value>
+                <fullName>Offsides</fullName>
+                <default>false</default>
+                <label>Offsides</label>
+            </value>
+            <value>
+                <fullName>Corners</fullName>
+                <default>false</default>
+                <label>Corners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

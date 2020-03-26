@@ -1,0 +1,19 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="MatchDAO">
+    <aura:attribute name="eventTypeList" type="Object"  />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+
+    <div class="slds-col slds-size_4-of-8">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <tbody>
+                <aura:iteration var="eventList" items="{!v.eventTypeList}">
+                    <tr>
+                        <td data-label="Event List">
+                            <div class="slds-text-align_center"> {!eventList.EventType__c} </div>
+                        </td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+
+</aura:component>

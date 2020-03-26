@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Teams Discipline Statistic" icon-name="custom:custom42">
+        <div class="slds-m-around_large table-size">
+            <template if:true={data}>
+                <lightning-datatable
+                    key-field="Id" 
+                    data={data}
+                    columns={columns}
+                    show-row-number-column="true"> 
+                </lightning-datatable>
+            </template>
+            <template if:true={error}>
+                <div class="slds-text-color_error">
+                    An error occurred while loading.
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

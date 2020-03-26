@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GoalDetails__c</fullName>
+    <description>Information if goal was scored after a corner, free kick, penalty or after a partner`s pass</description>
+    <externalId>false</externalId>
+    <label>Goal Details</label>
+    <length>64</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,45 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="MatchDAO">
+    <aura:attribute name="matchTeams" type="Object"  />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+
+    <div class="slds-size_2-of-8">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <aura:iteration var="teams" items="{!v.matchTeams}">
+                    <tr>
+                        <th class="slds-text-title_caps">
+                            <div class="slds-text-align_center" title="Home Team">{!teams.HomeTeam__r.Name}</div>
+                        </th>  
+                    </tr> 
+                </aura:iteration>
+            </thead>
+        </table>
+    </div>
+    <div class="slds-size_4-of-8">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <aura:iteration var="teams" items="{!v.matchTeams}">
+                    <tr>
+                        <th class="slds-text-title_caps">
+                            <div class="slds-text-align_center" title="Match Name">{!teams.Name}</div>
+                        </th>  
+                    </tr> 
+                </aura:iteration>
+            </thead>
+        </table>
+    </div>
+    <div class="slds-size_2-of-8">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <aura:iteration var="teams" items="{!v.matchTeams}">
+                    <tr>
+                        <th class="slds-text-title_caps">
+                            <div class="slds-text-align_center" title="Visitor Team">{!teams.Visitors__r.Name}</div>
+                        </th>  
+                    </tr> 
+                </aura:iteration>
+            </thead>
+        </table>
+    </div>        
+
+</aura:component>

@@ -1,0 +1,13 @@
+<apex:page standardController="Match__c" extensions="MatchController" lightningStylesheets="true">
+    <apex:pageBlock title="Referee" rendered="true">
+        <apex:pageBlockSection title="Information About Match Referee">
+            <apex:pageBlockTable value="{!RefereeList}" var="referee">
+                <apex:column value="{!referee.Name__c}" headerValue="Referee Name" />
+                <apex:column value="{!referee.Fouls__c}" headerValue="Fouls" />
+                <apex:column value="{!referee.YellowCards__c}" headerValue="Yellow Cards" />
+                <apex:column value="{!referee.RedCards__c}" headerValue="Red Cards" />
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>        
+    </apex:pageBlock>
+    
+</apex:page>

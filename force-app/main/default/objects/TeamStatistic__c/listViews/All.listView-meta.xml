@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Match__c</columns>
+    <columns>Team__c</columns>
+    <columns>Result__c</columns>
+    <columns>TotalShots__c</columns>
+    <columns>ShotsOnTarget__c</columns>    
+    <columns>Possesion__c</columns>
+    <columns>Corners__c</columns>    
+    <columns>Fouls__c</columns>
+    <columns>YellowCard__c</columns>
+    <columns>RedCard__c</columns>
+    <columns>TotalPasses__c</columns>
+    <columns>PassesAccuracy__c</columns>
+    <columns>Offsides__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
