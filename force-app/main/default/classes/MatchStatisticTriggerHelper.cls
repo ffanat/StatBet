@@ -12,10 +12,6 @@ public class MatchStatisticTriggerHelper {
                 teamIds.add(mst.Team__c);           
             }
         }
-        // Return if matches not found (Set matchIds is empty)
-        if(matchIds.isEmpty()) {
-            return;
-        }
         // Count gols for each team in matches that have statistic event
         List<AggregateResult> result = [
             SELECT count(Id) gols, Team__c team

@@ -1,6 +1,6 @@
 public class MatchTriggerHelper {
 
-    public static void refereeStatistic (List<Match__c> matches) {
+    public static void refereeStatistic (List<Match__c> matches, Map<Id, Match__c> oldMap) {
         Set<Id> refIds = new Set<Id>();
         List<Referee__c> refList = new List<Referee__c>();
         Map<Id, Decimal> avgRefFouls = new Map<Id, Decimal>();
@@ -8,11 +8,9 @@ public class MatchTriggerHelper {
         Map<Id, Decimal> avgRefReds = new Map<Id, Decimal>();
         // Build Set with Id`s of referees
         for (Match__c match: matches) {
-            refIds.add(match.Referee__c);
-        }
-        // Return if referees not found (Set refIds is empty)
-        if(refIds.isEmpty()) {
-            return;
+            if (match.MatchComplete__c == true && oldMap.get(match.Id).MatchComplete__c == false) {
+                refIds.add(match.Referee__c);
+            }            
         }
         // List of matches in which referee participate
         List<Match__c> matchList = [
@@ -58,7 +56,7 @@ public class MatchTriggerHelper {
         update refList;
     }
 
-    public static void homeTeamStatistic (List<Match__c> matches, Map<Id, Match__c> oldMap) {
+    public static void teamsStatistic (List<Match__c> matches, Map<Id, Match__c> oldMap) {
         List<TeamStatistic__c> teamStat = new List<TeamStatistic__c>();
         Map<String,Decimal> homeTeamStatistic = new Map<String,Decimal>();
         Map<String,Decimal> visitorTeamStatistic = new Map<String,Decimal>();

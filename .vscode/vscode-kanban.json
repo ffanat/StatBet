@@ -56,6 +56,32 @@
       "assignedTo": {
         "name": "Afotunado"
       },
+      "creation_time": "2020-03-25T10:59:44.891Z",
+      "description": {
+        "content": "Connect gitHub repo to project and add new working branch",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Connect gitHub repo to project"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T10:57:55.239Z",
+      "description": {
+        "content": "Create custom image field which represent statistic of played matches by team (win, draw or loose)",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Create custom image field"
+    },
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
       "creation_time": "2020-02-26T15:45:58.870Z",
       "description": {
         "content": "Add lightninig component wich represent statistic information of the match\t\t\t",
@@ -77,24 +103,37 @@
       "id": "1",
       "references": [],
       "title": "Referee visualforce"
-    }
-  ],
-  "in-progress": [
+    },
     {
       "assignedTo": {
         "name": "Afotunado"
       },
-      "creation_time": "2020-03-25T10:57:55.239Z",
+      "creation_time": "2020-03-25T11:07:46.953Z",
       "description": {
-        "content": "Create custom image field which represent statistic of played matches by team (win, draw or loose)",
+        "content": "Create tests for all apex classes and controllers",
         "mime": "text/markdown"
       },
-      "id": "7",
+      "id": "11",
       "references": [],
-      "title": "Create custom image field"
+      "title": "Create tests"
     }
   ],
-  "testing": [],
+  "in-progress": [],
+  "testing": [
+    {
+      "assignedTo": {
+        "name": "Afotunado"
+      },
+      "creation_time": "2020-03-25T10:55:28.261Z",
+      "description": {
+        "content": "Create special user for \"Stat Bet\" app. Create permission set",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Create user"
+    }
+  ],
   "todo": [
     {
       "assignedTo": {
@@ -113,19 +152,6 @@
       "assignedTo": {
         "name": "Afotunado"
       },
-      "creation_time": "2020-03-25T10:59:44.891Z",
-      "description": {
-        "content": "Connect gitHub repo to project and add new working branch",
-        "mime": "text/markdown"
-      },
-      "id": "8",
-      "references": [],
-      "title": "Connect gitHub repo to project"
-    },
-    {
-      "assignedTo": {
-        "name": "Afotunado"
-      },
       "creation_time": "2020-03-25T11:05:46.691Z",
       "description": {
         "content": "Create custom report type and dashboard which add information of played matches statistic to Team record page",
@@ -134,32 +160,6 @@
       "id": "10",
       "references": [],
       "title": "Create custom report type and dashboard"
-    },
-    {
-      "assignedTo": {
-        "name": "Afotunado"
-      },
-      "creation_time": "2020-03-25T11:07:46.953Z",
-      "description": {
-        "content": "Create tests for all apex classes and controllers",
-        "mime": "text/markdown"
-      },
-      "id": "11",
-      "references": [],
-      "title": "Create tests"
-    },
-    {
-      "assignedTo": {
-        "name": "Afotunado"
-      },
-      "creation_time": "2020-03-25T10:55:28.261Z",
-      "description": {
-        "content": "Create special user for \"Stat Bet\" app. Create permission set and role",
-        "mime": "text/markdown"
-      },
-      "id": "6",
-      "references": [],
-      "title": "Create user"
     }
   ]
 }
