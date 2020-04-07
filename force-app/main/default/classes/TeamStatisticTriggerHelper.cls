@@ -9,10 +9,6 @@ public class TeamStatisticTriggerHelper {
                 matchIds.add(ts.Match__c);
             }
         }
-        // Return if matches not found (Set matchIds is empty)
-        if(matchIds.isEmpty()) {
-            return;
-        }
         // Find goal statistics for selected matches
         List<MatchStatistic__c> goalStats = [
             SELECT Match__c, Team__c, ShotPosition__c, ShotResistance__c, Minute__c, Assist__c, CornerOrFreeKick__c, Penalti__c

@@ -3,7 +3,7 @@ trigger MatchTrigger on Match__c (before insert, after insert,
   before delete, after delete) {
     
     if (Trigger.isBefore) {
-      MatchTriggerHelper.refereeStatistic(Trigger.new);     
+      //Call class logic here!     
     } 
     if (Trigger.isUpdate) {
       // Call class logic here!
@@ -21,7 +21,8 @@ trigger MatchTrigger on Match__c (before insert, after insert,
       
     } 
     if (Trigger.isUpdate) {
-      MatchTriggerHelper.homeTeamStatistic(Trigger.new, Trigger.oldMap);            
+      MatchTriggerHelper.teamsStatistic(Trigger.new, Trigger.oldMap);
+      MatchTriggerHelper.refereeStatistic(Trigger.new, Trigger.oldMap);            
        // Call class logic here! 
     }
     if (Trigger.isDelete) {
